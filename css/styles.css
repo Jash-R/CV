@@ -3,7 +3,8 @@ body {
   text-align: center;
   font-family: 'Merriweather Sans', sans-serif;
   font-size: 120%;
-  color:#ffeed0;
+  color:#ca431d;
+  background-color: #ffeed0
 }
 
 h1 {
@@ -13,10 +14,19 @@ h1 {
 }
 
 h2 {
-  color:#ffeed0;
+  color:#ca431d;
   font-family: 'Lobster', cursive;
   font-size: 2.5rem;
   font-weight: normal;
+}
+
+
+hr {
+
+    border: 10px dotted #f79f24;
+    border-style: none none dotted;
+    background-color: #ffeed0;
+    width:5%
 }
 
 .top-container {
@@ -41,7 +51,6 @@ h2 {
 
 .profile{
   padding-top: 50px;
-  background-color:#f12d2d;
   padding-bottom: 10px;
   line-height: 2
 }
@@ -54,7 +63,6 @@ h2 {
 .skills{
   margin: auto;
   width: 100%;
-  background-color: #7c064d;
   padding-top: 10px;
   padding-bottom: 10px;
 }
@@ -73,14 +81,13 @@ table {
 
 .contact-me{
   padding-top: 10px;
-  background-color:#293462;
   padding-bottom: 50px;
 }
 
 .bottom-container{
   padding-top: 50px;
   padding-bottom: 10px;
-  background-color: black;
+  background-color: #f79f24;
 }
 
 .btn {
@@ -106,17 +113,17 @@ table {
 }
 
 a{
-  color:#ffeed0;
+  color:#ca431d;
   margin:10px 20px;
   text-decoration: none;
 }
 
 a:hover{
-  color: #f79f24
+  color: #ffeed0
 }
 
 .Copyright{
-  color: #f79f24;
+  color: #ca431d;
   font-size: 0.75rem;
   padding: 20px 0;
 }
