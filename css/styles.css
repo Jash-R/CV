@@ -92,11 +92,11 @@ table {
 
 .btn {
   background: #f79f24;
-  background-image: -webkit-linear-gradient(top, #f79f24, #f12d2d);
-  background-image: -moz-linear-gradient(top, #f79f24, #f12d2d);
-  background-image: -ms-linear-gradient(top, #f79f24, #f12d2d);
-  background-image: -o-linear-gradient(top, #f79f24, #f12d2d);
-  background-image: linear-gradient(to bottom, #f79f24, #f12d2d);
+  background-image: -webkit-linear-gradient(top, #f79f24,#ca431d);
+  background-image: -moz-linear-gradient(top, #f79f24,#ca431d);
+  background-image: -ms-linear-gradient(top, #f79f24, #ca431d);
+  background-image: -o-linear-gradient(top, #f79f24, #ca431d);
+  background-image: linear-gradient(to bottom, #f79f24, #ca431d);
   -webkit-border-radius: 8;
   -moz-border-radius: 8;
   border-radius: 8px;
@@ -116,6 +116,7 @@ a{
   color:#ca431d;
   margin:10px 20px;
   text-decoration: none;
+  font-weight: bolder;
 }
 
 a:hover{
